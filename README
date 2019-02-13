@@ -1,3 +1,5 @@
-Det här är ett enkelt skript för att uppdatera fler än en domän mot Loopia dyndns tjänst.
+Det här är ett enkelt skript för att uppdatera ip-nummret för fler än en domän mot Loopias dyndns-tjänst.
 Lägg till dina uppgifter i loopiauppgifter filen, kör sedan skriptet med ./dyndnsupdater.sh loopiauppgifter
-Du borde då få svartet "Good" och eller "nochg" en gång för varje domän.
+Du borde då få svartet "good" och eller "nochg" en gång för varje domän.
+
+Går utmärkt att köra det via crontab, då pipar du ut datan till null bara.
